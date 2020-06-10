@@ -14,7 +14,7 @@ function myAdder($a, $b)
     return $a + $b;
 }
 
-function printFizzBuzz($max = 20, $containerClass = 'mycontainer')
+function printFizzBuzz($max = 30, $containerClass = 'mycontainer')
 {
     echo "<div class='$containerClass'>";
     for ($i = 1; $i < $max; $i++) {
