@@ -1,7 +1,7 @@
 <form action="post.php" method="post">
-<input type="email" name="myEmail" placeholder="e-mail">
-<input type="password" name="myPw" placeholder="password">
-<input type="text" name="myName" placeholder="Name">
+<input type="email" name="myEmail" placeholder="valdis.s.coding@gmail.com" >
+<input type="password" name="myPw" placeholder="hunter2" required>
+<input type="text" name="myName" placeholder="Valdis" value="Voldemars">
 <button type="submit">Submit Me</button>
 </form>
 <?php
